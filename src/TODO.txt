@@ -1,8 +1,0 @@
-//TODO
-
-// Add in the ability for people to enter in data and submit to render
-// Add ability for people to pick their own colors
-// Create Today Line
-// Handle Milestones
-// Make the code look like "table-like" react where all the things are just tags in the view
-// Fix how today doesn't look like today
