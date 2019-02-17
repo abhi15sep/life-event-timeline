@@ -15,4 +15,5 @@ Coming soon.
 - Handle Milestones outside of date ranges
 - Make the code look like "table-like" react where all the things are just tags in the view
 - Add hover details and elipsees for long event names
+- Make visual a downloadable high res image (ideally an SVG)
 
