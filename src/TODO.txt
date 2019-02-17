@@ -1,0 +1,17 @@
+//TODO
+
+// Add in the ability for people to enter in data and submit to render
+// Add ability for people to pick their own colors (maybe generate a cute visual key depending on selections?)
+// Create Today Line or cute dot
+// Handle Milestones over date ranges
+// Make the code look like "table-like" react where all the things are just tags in the view
+
+
+// DONE
+
+// Colors in data correspond to data type and render nicely
+// Make margins be correct to show time YEAH BOIIIIII
+// Fix algorithum so that it actually loops through all the things correctly DONE
+// Make it so somehow dates wrap between rows (maybe not actually that bad) DONE
+// Move date functions to their own file (make them suck less, potentially) DONE
+// Dealt with the concept of "present" end date DONE
