@@ -25,4 +25,3 @@ TODO ADD IMAGE
 - Allow for end users to pick types of events to add
 - Add hover details and elipsees for long event names
 - Make visual a downloadable high res image (ideally an SVG)
-
