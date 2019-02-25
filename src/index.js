@@ -14,7 +14,7 @@ import {
 } from "./DateHelpers";
 
 const App = ({ birthdate }) => (
-  <div styles={{ textAlign: "center" }}>
+  <div style={{ textAlign: "center", padding: "50px 500px" }}>
     <Headers birthdate={birthdate} />
     <Key color="pink" title="Relationships" />
     <Key color="orange" title="Jobs" />
