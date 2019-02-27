@@ -9,15 +9,13 @@ export default {
   relationships: [
     { name: "Cole", start: "2016-01-30", end: "2018-10-15", color: "pink" },
     {
-      name: "Single Adventures",
-      start: "2013-09-21",
-      end: "2015-05-30",
+      name: "Single Adventures", start: "2013-09-21", end: "2015-05-30",
       color: "pink"
     },
     { name: "Will", start: "2015-06-01", end: "2015-11-20", color: "pink" },
     { name: "Jake", start: "2008-11-20", end: "2013-09-20", color: "pink" }
   ],
-  today: [{ name: "_", start: today, end: futureDay, color: "#90eea8" }],
+  today: [{ name: ".", start: today, end: today, color: "#90eea8" }],
   firstProgrammingClass: [
     {
       name: "First Programming Class",
