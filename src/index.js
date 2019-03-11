@@ -22,9 +22,9 @@ const App = ({ birthdate }) => (
       <Key color="#ADD8E6" title="Education" />
       <Key color="#90eea8" title="Today" />
     </div>
-    <div>
-      <div>oh hi</div>
-      <div>
+    <div style={{ display: 'flex' }}>
+      <div style={{ width: '200px' }}>Menu TBD</div>
+      <div style={{ width: '1000px' }}>
         {[...Array(10)].map((x, rows) => (
           <div>
             <div>
