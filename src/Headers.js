@@ -18,7 +18,7 @@ export default ({ birthdate }) => (
         textAlign: "center"
       }}
     >
-      Your Life in 100 Years
+      Your Life Visualized
     </h1>
     <h2
       style={{

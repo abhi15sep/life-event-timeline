@@ -1,16 +1,12 @@
 import React from "react";
 
 export default ({ color, title }) => (
-  <div style={{ display: "flex" }}>
+  <div style={{ display: "flex", margin: "0px 0px 15px 0px" }}>
     <div
       style={{
         backgroundColor: color,
         borderRadius: "10px",
-        fontFamily: "IBM Plex Sans, sans-serif",
-        fontWeight: "300",
-        marginTop: "5px",
-        // marginLeft: z.marginLeft + "%",
-        // marginRight: 15 + "%",
+        margin: "5px 5px 0px 0px",
         minWidth: "15px",
         width: "20px",
         alignSelf: "center"
@@ -18,6 +14,14 @@ export default ({ color, title }) => (
     >
       &nbsp;
     </div>
-    <div style={{ marginTop: "7px", marginLeft: "5px" }}>{title}</div>
+    <div
+      style={{
+        margin: "6px 15px 0px 0px",
+        fontFamily: "IBM Plex Sans, sans-serif",
+        fontWeight: "300"
+      }}
+    >
+      {title}
+    </div>
   </div>
 );

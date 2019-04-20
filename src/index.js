@@ -15,15 +15,18 @@ import {
 
 const App = ({ birthdate }) => (
   <div style={{ textAlign: "center", padding: "50px 500px" }}>
-    <div>
+
       <Headers birthdate={birthdate} />
-      <Key color="pink" title="Relationships" />
-      <Key color="orange" title="Jobs" />
-      <Key color="#ADD8E6" title="Education" />
-      <Key color="#90eea8" title="Today" />
-    </div>
+      <div style={{ display: "flex" }}>
+        <Key color="pink" title="Relationships" />
+        <Key color="#ADD8E6" title="Education" />
+        <Key color="orange" title="Groups" />
+        <Key color="#90eea8" title="Albums" />
+        <Key color="#f9d849" title="Companies" />
+        <Key color="#e5adef" title="Kids" />
+      </div>
     <div style={{ display: 'flex' }}>
-      <div style={{ width: '200px' }}>Menu TBD</div>
+      {/* <div style={{ width: '200px' }}> FUTURE SIDE MENU </div> */}
       <div style={{ width: '1000px' }}>
         {[...Array(10)].map((x, rows) => (
           <div>
@@ -58,4 +61,4 @@ const App = ({ birthdate }) => (
   </div>
 );
 
-render(<App birthdate="1991-06-12" />, document.getElementById("root"));
+render(<App birthdate="1981-09-04" />, document.getElementById("root"));

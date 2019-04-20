@@ -10,11 +10,14 @@ import LifeEvents from "./LifeEvents";
 
 const getLifeEventsShape = (start, end) => {
   return Object.values([
-    ...LifeEvents.jobs,
     ...LifeEvents.relationships,
     ...LifeEvents.education,
-    ...LifeEvents.today,
-    ...LifeEvents.firstProgrammingClass
+    ...LifeEvents.groups,
+    ...LifeEvents.albums,
+    ...LifeEvents.jobs,
+    ...LifeEvents.kids,
+    // ...LifeEvents.today,
+    // ...LifeEvents.firstProgrammingClass
   ]).map(x => {
     let shouldShow =
       (x.start >= start && x.end <= end) || (x.start <= end && x.end >= start);
