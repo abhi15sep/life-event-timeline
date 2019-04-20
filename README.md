@@ -1,8 +1,8 @@
 # Life Event Timeline
 Create a visual timeline of your life.✨
 
-Here's an example of Beyonce's life event timeline:
-TODO ADD IMAGE
+<!-- Here's an example of Beyonce's life event timeline:
+TODO ADD IMAGE -->
 
 # Demo
 [Check out the Live Demo](https://jackiecalapristi.github.io/life-event-timeline/src/)
