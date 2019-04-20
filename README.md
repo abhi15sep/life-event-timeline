@@ -1,10 +1,11 @@
 # Life Event Timeline
-Create a beautiful visual timeline of your life. 
+Create a visual timeline of your life.✨
+
+Here's an example of Beyonce's life event timeline:
+TODO ADD IMAGE
 
 # Demo
-[Check out the demo on Codesandbox](https://codesandbox.io/s/v090179250)
-
-TODO ADD IMAGE
+[Check out the Live Demo](https://jackiecalapristi.github.io/life-event-timeline/src/)
 
 # TODO
 
@@ -20,8 +21,7 @@ TODO ADD IMAGE
 ## Everything Else
 - Add demo image without personal data
 - Create Today Line or cute dot
-- Remove personal life events from JSON string
-- Allow for user input 
+- Allow for user input
 - Allow for end users to pick types of events to add
 - Add hover details and elipsees for long event names
 - Make visual a downloadable high res image (ideally an SVG)
