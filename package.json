@@ -1,12 +1,11 @@
 {
   "name": "new",
   "version": "1.0.0",
-  "description": "",
+  "description": "Create a visual timeline of your life.✨",
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
     "ajv": "^6.10.0",
-    "html-webpack-plugin": "^3.2.0",
     "lodash": "^4.17.11",
     "prettier": "^1.16.4",
     "react": "^16.8.6",
@@ -14,6 +13,7 @@
     "react-scripts": "^1.1.4"
   },
   "devDependencies": {
+    "html-webpack-plugin": "^3.2.0",
     "webpack-dev-middleware": "^3.6.2",
     "webpack-dev-server": "^3.3.1"
   },
@@ -22,5 +22,15 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JackieCalapristi/life-event-timeline.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JackieCalapristi/life-event-timeline/issues"
+  },
+  "homepage": "https://github.com/JackieCalapristi/life-event-timeline#readme"
 }

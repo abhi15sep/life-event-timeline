@@ -2,20 +2,11 @@ import React from "react";
 import { render } from "react-dom";
 import Row from "./Row";
 import Headers from "./Headers";
-import styles from "./styles.css";
 import Lines from "./Lines";
 import Key from "./Legend";
 
-import {
-  getEndDateMinusOneDay,
-  getToday,
-  dayDiff,
-  getAge
-} from "./DateHelpers";
-
 const App = ({ birthdate }) => (
   <div style={{ textAlign: "center", padding: "50px 500px" }}>
-
       <Headers birthdate={birthdate} />
       <div style={{ display: "flex" }}>
         <Key color="pink" title="Relationships" />

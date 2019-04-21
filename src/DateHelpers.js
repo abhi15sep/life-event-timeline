@@ -1,5 +1,3 @@
-import React from "react";
-
 export const getEndDateMinusOneDay = (endYear, birthdate) => {
   const end = endYear + birthdate.substr(birthdate.length - 6);
   let myDate = new Date(end);
@@ -28,9 +26,9 @@ export const dayDiff = (first, second) => {
   return diffDays;
 };
 
-const getAge = dob => {
-  var birthday = +new Date(dob);
-  return ~~((Date.now() - birthday) / 31557600000);
-};
+// const getAge = dob => {
+//   var birthday = +new Date(dob);
+//   return ~~((Date.now() - birthday) / 31557600000);
+// };
 
 export default addYears;

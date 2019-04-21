@@ -1,10 +1,3 @@
-import React from "react";
-
-var today = new Date().toISOString().slice(0, 10);
-var futureDay = new Date(Date.now() + 1000 * 60 * 60 * 24 * 10 * 6)
-  .toISOString()
-  .slice(0, 10);
-
 export default {
   relationships: [
     { name: "Jay-Z", start: "2001-11-01", end: "present", color: "pink" },
