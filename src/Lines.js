@@ -2,8 +2,7 @@ import React from "react";
 import {
   getEndDateMinusOneDay,
   getToday,
-  dayDiff,
-  getAge
+  dayDiff
 } from "./DateHelpers";
 import round from "lodash/round";
 import LifeEvents from "./LifeEvents";
