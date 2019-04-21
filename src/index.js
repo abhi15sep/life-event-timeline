@@ -6,7 +6,7 @@ import Lines from "./Lines";
 import Key from "./Legend";
 
 const App = ({ birthdate }) => (
-  <div style={{ textAlign: "center", padding: "50px 500px" }}>
+  <div style={{ textAlign: "center", padding: "50px 200px" }}>
       <Headers birthdate={birthdate} />
       <div style={{ display: "flex" }}>
         <Key color="pink" title="Relationships" />

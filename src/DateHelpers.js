@@ -26,9 +26,4 @@ export const dayDiff = (first, second) => {
   return diffDays;
 };
 
-// const getAge = dob => {
-//   var birthday = +new Date(dob);
-//   return ~~((Date.now() - birthday) / 31557600000);
-// };
-
 export default addYears;
