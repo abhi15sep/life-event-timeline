@@ -5,7 +5,8 @@ Create a visual timeline of your life.✨
 TODO ADD IMAGE -->
 
 # Demo
-[Check out Beyoncé's Timeline](https://www.jackiecalapristi.com/life-event-timeline/dist/)
+[Check out Beyoncé's Timeline](https://www.jackiecalapristi.com/life-event-timeline/dist/){:target="_blank"}
+
 
 # TODO
 - Create Today Line
